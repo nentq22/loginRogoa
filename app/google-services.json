@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537604510890",
+    "project_id": "auth-2e715",
+    "storage_bucket": "auth-2e715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537604510890:android:aa2dbd3dc136fff48facd3",
+        "android_client_info": {
+          "package_name": "com.example.loginrogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537604510890-ph3hq2jv1tth4g3df2u6udogfuarrmhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm8uJQC6PtCzEykjQgva2cqu-qFYJlpYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537604510890-ph3hq2jv1tth4g3df2u6udogfuarrmhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

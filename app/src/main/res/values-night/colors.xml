@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primarikey">@drawable/bg</color>
+    <color name="banner">@drawable/rg_img_banner_login2</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#ffffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="solid">#D8CCCC</color>
+    <color name="red">#9ABC4E</color>
+    <color name="abc">#9ABC4E</color>
+    <color name="xacthucOTP">#5A5757</color>
+</resources>

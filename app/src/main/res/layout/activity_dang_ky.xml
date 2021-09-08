@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primarikey"
+    tools:context=".DangKyActivity">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/abc"
+        android:src="@drawable/ic_action_name2" />
+
+    <Button
+        android:id="@+id/btnBackDangNhap1"
+
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Đăng Nhập"
+        android:textColor="#A122F1"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/imgBanner1"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/btnBackDangNhap1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-1dp"
+
+        android:background="@color/banner" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail1"
+        android:layout_marginLeft="20dp"
+        android:ems="15"
+        android:hint="abc@gmail.com"
+        android:inputType="textPersonName"
+
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtMatKhau1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtEmail1"
+        android:layout_marginLeft="20dp"
+        android:text="MẬT KHẨU"
+        android:textColor="@color/black" />
+
+    <Button
+
+        android:id="@+id/btnDangKy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtMatKhau1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/red"
+        android:text="Đăng ký"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTaiKhoanEmail1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="EMAIL"
+        android:textColor="@color/black" />
+
+    <EditText
+android:layout_marginTop="10dp"
+        android:id="@+id/edtMatKhau1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMatKhau1"
+        android:layout_marginLeft="20dp"
+        android:ems="15"
+        android:hint="******"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtTaiKhoanEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBanner1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Tạo tài khoản" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_logo_with_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"/>
+
+
+</RelativeLayout>
